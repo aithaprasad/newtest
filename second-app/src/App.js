@@ -1,16 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div>
       <p className="container1">ReactJs Logo With Shadow</p>
-      <div className="polaroid">
-        <img src={logo} alt="logo"></img>
-        --------------------------
+      <div>
         <div className="container">
-          <p>ReactJs Logo !!</p>
+          <button>On Click Turns Green !!</button>
+          <button>On Hover Turns Yellow</button>
         </div>
       </div>
     </div>
